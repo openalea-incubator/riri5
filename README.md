@@ -10,34 +10,22 @@ Louarn, G., Escobar-Gutiérrez, A., Migault, V., Faverjon, L., & Combes, D. (201
 
 
 
-## 1. Getting Started
+### Installation
 
 
-### 1.1 Prerequisites
+First, **Conda** needs to be installed. It is a package manager that can be installed on Linux, Windows, and Mac. we recommand to install [miniforge](https://github.com/conda-forge/miniforge).
 
-To install and use *RIRI5*, you need first to install the dependencies.
+#### for user
+Creating a new conda environment with riri5 and its dependencies installed
+```bash
+mamba create -n riri5 -c openalea3/label/dev -c openalea3 -c conda-forge openalea.riri5
+```
 
-*RIRI5* has been tested on Windows.
- 
-
-#### 1.1.1 Install the dependencies on Windows 10 64 bit
-1) Create a conda environment with miniconda3
-    ```bash
-    conda create -n myenvname python=3.7 xlrd=2.0.1 numpy=1.20.3 scipy=1.7.3 pandas=1.3.4
-    ```
-
-2) Place yourself in the created environment  : `conda activate myenvname`
-
-3) Install *riri5*
-    1) Git console :
-        ```bash
-        git clone https://github.com/glouarn/riri5.git
-        ```
-    2) installation in the conda environment (in folder `riri5`)
-        ```bash
-        python setup.py develop
-        ```
-
+#### for developer
+```bash
+mamba env create -f ./conda/environment.yml
+```
+This will create a conda environment with dependencies installed and install riri5 in editable state.
 
 ### 1.3 Running
 
