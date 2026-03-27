@@ -15,7 +15,7 @@
 
 
 from numpy import linspace
-from scipy import array, exp, zeros, ones, set_printoptions, pi, radians, cos, sin, tan, arccos, histogram
+from numpy import array, exp, zeros, ones, set_printoptions, pi, radians, cos, sin, tan, arccos, histogram
 from copy import deepcopy
 #from numpy.random import seed, normal
 import numpy as np
