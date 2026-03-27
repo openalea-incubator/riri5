@@ -27,27 +27,16 @@ mamba env create -f ./conda/environment.yml
 ```
 This will create a conda environment with dependencies installed and install riri5 in editable state.
 
-### 1.3 Running
+### Examples
 
 To run a simulation example :
 
-* 1. place yourself in folder `riri5\riri5\test`
+* 1. place yourself in folder `examples`
   2. run from the console:
 		```bash
-        python test_riri_homogene.py
-		python test_riri.py
+        python example_riri_homogene.py
+		python example_riri.py
         ```
-
-## 2. Reading the docs
-
-To build the user and reference guides:
-
-
-## 3. Testing
-
-The test allows to verify that the model implementation accurately 
-represents the developer’s conceptual description of the model and its solution.
-
 
 ## Contact
 
