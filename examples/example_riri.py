@@ -1,4 +1,4 @@
-from riri5 import RIRI5 as riri
+from openalea.riri5 import riri5 as riri
 import numpy as np
 
 #############
