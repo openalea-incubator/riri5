@@ -1,5 +1,5 @@
 # RIRI5
-[![Build Status](https://github.com/openalea/riri5/actions/workflows/openalea_ci.yml/badge.svg)](https://github.com/openalea/riri5/actions/workflows/openalea_ci.yml)
+[![Build Status](https://github.com/openalea-incubator/riri5/actions/workflows/openalea_ci.yml/badge.svg)](https://github.com/openalea-incubator/riri5/actions/workflows/openalea_ci.yml)
 [![Python Version](https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-blue)](https://www.python.org/downloads/)
 [![Anaconda-Server Badge](https://anaconda.org/openalea3/openalea.riri5/badges/version.svg)](https://anaconda.org/openalea3/openalea.riri5)
 [![License](https://img.shields.io/badge/License--CeCILL-C-blue)](https://www.cecill.info/licences/Licence_CeCILL-C_V1-en.html)
@@ -12,7 +12,7 @@ Louarn, G., Escobar-Gutiérrez, A., Migault, V., Faverjon, L., & Combes, D. (201
 
 ### Installation
 
-First, **Conda** needs to be installed. It is a package manager that can be installed on Linux, Windows, and Mac. we recommand to install [miniforge](https://github.com/conda-forge/miniforge).
+First, **Conda** needs to be installed, see instruction on [openaleala documentation](https://openalea.readthedocs.io/en/latest/install.html).
 
 #### for user
 Creating a new conda environment with riri5 and its dependencies installed
@@ -30,16 +30,16 @@ This will create a conda environment with dependencies installed and install rir
 
 To run a simulation example :
 
-* 1. place yourself in folder `examples`
+  1. place yourself in folder `examples`
   2. run from the console:
 		```bash
-        python example_riri_homogene.py
+        python example_riri_homogeneous.py
 		python example_riri.py
         ```
 
 ## Contact
 
-For any question, send an email to <gaetan.louarn@inrae.fr>.
+For further assistance, you can reach out to the development team creating an [issue on github](https://github.com/openalea-incubator/riri5/issues)
 
 
 ## Authors
